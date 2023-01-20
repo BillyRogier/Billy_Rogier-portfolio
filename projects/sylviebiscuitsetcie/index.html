@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="../../assets/img/logo.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="../../assets/css/reset.css" />
+        <link rel="stylesheet" href="../../assets/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        />
+        <title>Billy Rogier | Projet | Sylvie, biscuits et cie</title>
+    </head>
+    <body>
+        <div class="loader"></div>
+        <span id="circle_animation" class="active"></span>
+        <header>
+            <nav class="reveal slide_up">
+                <a href="/" id="logo">
+                    &#60;
+                    <div>br</div>
+                    &#x2044;&#62;
+                </a>
+                <input type="checkbox" name="slider" id="menu_burger-check" />
+                <label for="menu_burger-check" id="menu_burger">
+                    <p id="menu_burger-title">menu</p>
+                    <div class="menu_burger-box">
+                        <div class="menu_burger-bar"></div>
+                        <div class="menu_burger-bar"></div>
+                        <div class="menu_burger-bar"></div></div
+                ></label>
+                <ul id="nav_links">
+                    <li>
+                        <a href="/" class="link"
+                            ><i class="fa-solid fa-arrow-left"></i> accueil</a
+                        >
+                    </li>
+                    <li>
+                        <a href="/#portfolio" class="link">Tous les projets</a>
+                    </li>
+                    <li><a href="/#contact" class="link">Contact</a></li>
+                    <li class="link-container">
+                        <a href="./en" id="language" class="link">EN</a>
+                        <div class="link" id="toggle_light">
+                            <i class="fa-solid fa-circle-half-stroke"></i>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="project-meta-home grid reveal slide_right">
+                    <h1>SYlvie, biscuits et cie</h1>
+                    <p>La gourmandise est un joli défaut</p>
+                    <a href="#project" class="btn">voir plus</a>
+                </div>
+                <img
+                    src="../../assets/img/mockup_sbc.png"
+                    alt=""
+                    class="mockup_img reveal slide_left"
+                />
+            </section>
+            <section id="project">
+                <div class="project-meta-desc grid">
+                    <h2 class="reveal slide_up">Projet</h2>
+                    <p class="reveal slide_down">
+                        Sylvie, biscuits et cie est une petite pâtisserie
+                        artisanale situé à Montréal en France. Le projet
+                        consisté à réalisé un site vitrine, du design à la
+                        programmation, permettant de présenter tous les
+                        produits. Réaliser en PHP, HTML, CSS, JS et MySql.
+                    </p>
+                    <div class="grid">
+                        <a
+                            href="https://sylviebiscuitsetcie.fr"
+                            target="_blank"
+                            class="reveal slide_down"
+                            ><div class="btn">
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square"
+                                ></i
+                                >&ensp;visiter le site
+                            </div></a
+                        >
+                        <a
+                            href="https://github.com/BillyRogier/sylviebiscuitsetcie.fr"
+                            target="_blank"
+                            class="reveal slide_down"
+                            ><div class="btn">
+                                <i class="fa-brands fa-github"></i>&ensp;code
+                                source
+                            </div></a
+                        >
+                    </div>
+                </div>
+            </section>
+            <section id="colors" class="project-meta-design grid">
+                <h2 class="reveal slide_up">Couleurs</h2>
+                <div class="grid color-container">
+                    <div class="grid reveal slide_down">
+                        <div
+                            class="color"
+                            style="background-color: #762f35"
+                        ></div>
+                        <p>#762f35</p>
+                    </div>
+                    <div class="grid reveal slide_down">
+                        <div
+                            class="color"
+                            style="background-color: #c5e1c5"
+                        ></div>
+                        <p>#c5e1c5</p>
+                    </div>
+                    <div class="grid reveal slide_down">
+                        <div class="color" style="background-color: #fff"></div>
+                        <p>#ffffff</p>
+                    </div>
+                    <div class="grid reveal slide_down">
+                        <div class="color" style="background-color: #000"></div>
+                        <p>#000000</p>
+                    </div>
+                </div>
+            </section>
+            <section id="fonts" class="project-meta-design grid">
+                <h2 class="reveal slide_up">Typographie</h2>
+                <div class="grid font-container">
+                    <div class="amaticac reveal slide_right">
+                        <p>Amatic SC</p>
+                        <p>abcdefghijklmnopkrstuvwxyz0123456789</p>
+                    </div>
+                    <div class="bar reveal slide_down"></div>
+                    <div class="poppins reveal slide_left">
+                        <p>Poppins</p>
+                        <p>abcdefghijklmnopkrstuvwxyz0123456789</p>
+                    </div>
+                </div>
+            </section>
+            <section id="design" class="project-meta-design grid">
+                <h2 class="reveal slide_up">design</h2>
+                <img
+                    class="reveal slide_down"
+                    src="../../assets/img/projet_sbc.png"
+                    alt=""
+                />
+                <img
+                    class="responsive reveal slide_down"
+                    src="../../assets/img/projet_sbc-responsive.png"
+                    alt=""
+                />
+            </section>
+        </main>
+        <footer>
+            <p class="light">
+                © 2023 Rogier Billy - num hébergeur : +3 70 64 50 33 78
+            </p>
+        </footer>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../../assets/js/function.js"></script>
+    <script>
+        (document.onreadystatechange = function () {
+            "complete" != document.readyState
+                ? ((lodaer = !0),
+                  (circle.style.top = 0),
+                  (circle.style.left = 0),
+                  (loader.style.opacity = 1))
+                : setTimeout(function () {
+                      (circle.style.transition = "1s"),
+                          circle.classList.remove("active"),
+                          circle.classList.add("disaper"),
+                          (loader.style.opacity = 0),
+                          setTimeout(function () {
+                              (main.style.opacity = 1),
+                                  (navbar.style.opacity = 1),
+                                  (footer.style.opacity = 1),
+                                  (lodaer = !1),
+                                  (body.style.overflowY = "scroll"),
+                                  window.innerWidth > 768,
+                                  reveal(0),
+                                  slide_percentage();
+                          }, 600);
+                  }, 1e3);
+        }),
+            menu.addEventListener("click", menuAnimation);
+        for (var i = 0; i < links.length; i++)
+            4 == i && links[i].addEventListener("click", menuAnimation);
+
+        window.addEventListener("scroll", function () {
+            !0 != lodaer && reveal(200);
+        });
+        window.addEventListener("resize", function () {
+            reveal(0);
+        });
+    </script>
+    <script src="../../assets/js/cookie.js"></script>
+    <script src="../../assets/js/lang.js"></script>
+    <script src="../../assets/js/dark_light.js"></script>
+    <script>
+        let lang = getCookie("lang");
+        if (lang == "en") {
+            window.location.replace("/projects/sylviebiscuitsetcie/en");
+        }
+    </script>
+</html>
