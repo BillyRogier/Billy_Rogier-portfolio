@@ -1,126 +1,127 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-            name="description"
-            content="Allociné is a website providing information films belonging to the Webedia company. This project was carried out at the Webstart school. It consists of reproduce the home page of the responsive website. Realize in HTML, CSS, JS."
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="shortcut icon"
-            href="../../assets/img/logo.png"
-            type="image/x-icon"
-        />
-        <link rel="stylesheet" href="../../assets/css/reset.css" />
-        <link rel="stylesheet" href="../../assets/css/style.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        />
-        <title>Billy Rogier | Project | Allociné clone</title>
-    </head>
-    <body>
-        <div class="loader"></div>
-        <span id="circle_animation" class="active"></span>
-        <header>
-            <nav class="reveal slide_up">
-                <a href="/" id="logo">
-                    &#60;
-                    <div>br</div>
-                    &#x2044;&#62;
-                </a>
-                <input type="checkbox" name="slider" id="menu_burger-check" />
-                <label for="menu_burger-check" id="menu_burger">
-                    <p id="menu_burger-title">menu</p>
-                    <div class="menu_burger-box">
-                        <div class="menu_burger-bar"></div>
-                        <div class="menu_burger-bar"></div>
-                        <div class="menu_burger-bar"></div></div
-                ></label>
-                <ul id="nav_links">
-                    <li>
-                        <a href="/en" class="link"
-                            ><i class="fa-solid fa-arrow-left"></i> Home</a
-                        >
-                    </li>
-                    <li><a href="/en#portfolio" class="link">All Works</a></li>
-                    <li><a href="/en#contact" class="link">Contact</a></li>
-                    <li class="link-container">
-                        <a href="./" id="language" class="link">FR</a>
-                        <div class="link" id="toggle_light">
-                            <i class="fa-solid fa-circle-half-stroke"></i>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <div class="project-meta-home grid reveal slide_right">
-                    <h1>Allociné Clone</h1>
-                    <p>The reference site for cinema and tv series</p>
-                    <a href="#project" class="btn">voir plus</a>
-                </div>
-                <img
-                    src="../../assets/img/mockup_allocine.png"
-                    alt=""
-                    class="mockup_img reveal slide_left"
-                />
-            </section>
-            <section
-                id="project"
-                style="padding-bottom: 160px; padding-top: 80px"
-            >
-                <div class="project-meta-desc grid">
-                    <h2 class="reveal slide_up">Project</h2>
-                    <p class="reveal slide_down">
-                        Allociné is a website providing information films
-                        belonging to the Webedia company. This project was
-                        carried out at the Webstart school. It consists of
-                        reproduce the home page of the responsive website.
-                        Realize in HTML, CSS, JS.
-                    </p>
-                    <div class="grid">
-                        <a
-                            href="https://allocineclone.netlify.app/"
-                            target="_blank"
-                            class="reveal slide_down"
-                            ><div class="btn">
-                                <i
-                                    class="fa-solid fa-arrow-up-right-from-square"
-                                ></i
-                                >&ensp;visit website
-                            </div></a
-                        >
-                        <a
-                            href="https://github.com/BillyRogier/Allocine_clone"
-                            target="_blank"
-                            class="reveal slide_down"
-                            ><div class="btn">
-                                <i class="fa-brands fa-github"></i>&ensp;source
-                                code
-                            </div></a
-                        >
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <p class="light">
-                © 2023 Rogier Billy - num hoster : +3 70 64 50 33 78
-            </p>
-        </footer>
-    </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="../../assets/js/cookie.js"></script>
-    <script src="../../assets/js/function.js"></script>
-    <script src="../../assets/js/animation_project.js"></script>
-    <script>
-        let lang = getCookie("lang");
-        if (lang == "fr") {
-            window.location.replace("/projects/allocine/");
-        }
-    </script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="description"
+			content="Allociné is a website providing information films belonging to the Webedia company. This project was carried out at the Webstart school. It consists of reproduce the home page of the responsive website. Realize in HTML, CSS, JS."
+		/>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link
+			rel="shortcut icon"
+			href="../../assets/img/logo.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="../../assets/css/reset.css" />
+		<link rel="stylesheet" href="../../assets/css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		/>
+		<title>Billy Rogier | Project | Allociné clone</title>
+	</head>
+	<body>
+		<div class="loader"></div>
+		<span id="circle_animation" class="active"></span>
+		<header>
+			<nav class="reveal slide_up">
+				<a href="/" id="logo"
+					>&#60;
+					<div>br</div>
+					&#x2044;&#62;</a
+				><input
+					type="checkbox"
+					name="slider"
+					id="menu_burger-check"
+				/><label for="menu_burger-check" id="menu_burger"
+					><p id="menu_burger-title">menu</p>
+					<div class="menu_burger-box">
+						<div class="menu_burger-bar"></div>
+						<div class="menu_burger-bar"></div>
+						<div class="menu_burger-bar"></div></div
+				></label>
+				<ul id="nav_links">
+					<li>
+						<a href="/en" class="link"
+							><i class="fa-solid fa-arrow-left"></i>Home</a
+						>
+					</li>
+					<li><a href="/en#portfolio" class="link">All Works</a></li>
+					<li><a href="/en#contact" class="link">Contact</a></li>
+					<li class="link-container">
+						<a href="./" id="language" class="link">FR</a>
+						<div class="link" id="toggle_light">
+							<i class="fa-solid fa-circle-half-stroke"></i>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section>
+				<div class="project-meta-home grid reveal slide_right">
+					<h1>Allociné Clone</h1>
+					<p>The reference site for cinema and tv series</p>
+					<a href="#project" class="btn">See more</a>
+				</div>
+				<img
+					src="../../assets/img/mockup_allocine.png"
+					alt=""
+					class="mockup_img reveal slide_left"
+				/>
+			</section>
+			<section
+				id="project"
+				style="padding-bottom: 160px; padding-top: 80px"
+			>
+				<div class="project-meta-desc grid">
+					<h2 class="reveal slide_up">Project</h2>
+					<p class="reveal slide_down">
+						Allociné is a website providing information films
+						belonging to the Webedia company. This project was
+						carried out at the Webstart school. It consists of
+						reproduce the home page of the responsive website.
+						Realize in HTML, CSS, JS.
+					</p>
+					<div class="grid">
+						<a
+							href="https://allocineclone.netlify.app/"
+							target="_blank"
+							class="reveal slide_down"
+							><div class="btn">
+								<i
+									class="fa-solid fa-arrow-up-right-from-square"
+								></i
+								>&ensp;visit website
+							</div></a
+						><a
+							href="https://github.com/BillyRogier/Allocine_clone"
+							target="_blank"
+							class="reveal slide_down"
+							><div class="btn">
+								<i class="fa-brands fa-github"></i>&ensp;source
+								code
+							</div></a
+						>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p class="light">
+				© 2023 Rogier Billy - num hoster : +3 70 64 50 33 78
+			</p>
+		</footer>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script src="../../assets/js/cookie.js"></script>
+	<script src="../../assets/js/function.js"></script>
+	<script src="../../assets/js/animation_project.js"></script>
+	<script>
+		let lang = getCookie("lang");
+		if (lang == "fr") {
+			window.location.replace("/projects/allocine/");
+		}
+	</script>
 </html>
