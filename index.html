@@ -1,363 +1,327 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta
-			name="description"
-			content="Hey, Je suis Billy Rogier, développeur web. Je suis actuellement étudiant à l'école Webstart de Paris et à la recherche d'une alternance sur Lille"
-		/>
-		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<link
-			rel="shortcut icon"
-			href="./assets/img/logo.png"
-			type="image/x-icon"
-		/>
-		<link rel="stylesheet" href="./assets/css/reset.css" />
-		<link rel="stylesheet" href="./assets/css/style.css" />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-		/>
-		<title>Billy Rogier | Développeur web</title>
-	</head>
-	<body>
-		<div class="loader"></div>
-		<span id="circle_animation" class="active"></span>
-		<header>
-			<nav class="reveal slide_up">
-				<a href="#home" id="logo"
-					>&#60;
-					<div>br</div>
-					&#x2044;&#62;</a
-				><input
-					type="checkbox"
-					name="slider"
-					id="menu_burger-check"
-				/><label for="menu_burger-check" id="menu_burger"
-					><p id="menu_burger-title">menu</p>
-					<div class="menu_burger-box">
-						<div class="menu_burger-bar"></div>
-						<div class="menu_burger-bar"></div>
-						<div class="menu_burger-bar"></div></div
-				></label>
-				<ul id="nav_links">
-					<li><a href="#about" class="link">à propos</a></li>
-					<li><a href="#skills" class="link">Compétences</a></li>
-					<li><a href="#portfolio" class="link">Portfolio</a></li>
-					<li><a href="#contact" class="link">Contact</a></li>
-					<li class="link-container">
-						<a href="/en" id="language" class="link">EN</a>
-						<div class="link" id="toggle_light">
-							<i class="fa-solid fa-circle-half-stroke"></i>
-						</div>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<section id="home">
-				<div class="home_data grid reveal slide_right">
-					<h1>Hey, Je suis Billy Rogier</h1>
-					<p>Développeur web full stack</p>
-					<a href="#about" class="btn">Voir plus</a>
-				</div>
-				<a href="#about"
-					><div class="scroll_down">
-						<p>défiler</p>
-						<div class="chevron_down">
-							<i class="fa-solid fa-chevron-down"></i
-							><i class="fa-solid fa-chevron-down"></i
-							><i class="fa-solid fa-chevron-down"></i>
-						</div></div
-				></a>
-			</section>
-			<section id="about">
-				<div class="about_data grid">
-					<h2 class="reveal slide_up">à propos</h2>
-					<p class="reveal slide_right">
-						Je suis actuellement étudiant à l'école Webstart de
-						Paris, j'y réalise un bachelor développeur full stack
-						web et mobile. J'adore créer de nouvelles choses sur le
-						web, de l'UI & UX à la programmation. Je code depuis
-						déjà plusieurs années, j'ai donc acquis de nombreuses
-						connaissances. Je suis à la recherche d'une alternance
-						sur Lille,&ensp;<a
-							href="./assets/file/CV_fr.pdf"
-							target="_blank"
-							class="resume"
-							>mon CV<i
-								class="fa-solid fa-arrow-up-right-from-square"
-							></i
-						></a>
-					</p>
-				</div>
-			</section>
-			<section id="skills">
-				<div class="skills_data grid">
-					<h2 class="reveal slide_up">Compétences</h2>
-					<div class="skills_data-container grid">
-						<ul class="skills_data-list grid">
-							<li class="skills_data-elt reveal slide_down">
-								<div class="skills_data-titles">
-									<p>HTML</p>
-									<p>95%</p>
-								</div>
-								<div class="skills_data-bar">
-									<span
-										class="skills_data-line html-line"
-									></span
-									><span
-										class="skills_data-fit html-ball"
-									></span>
-								</div>
-							</li>
-							<li class="skills_data-elt reveal slide_down">
-								<div class="skills_data-titles">
-									<p>CSS</p>
-									<p>90%</p>
-								</div>
-								<div class="skills_data-bar">
-									<span
-										class="skills_data-line css-line"
-									></span
-									><span
-										class="skills_data-fit css-ball"
-									></span>
-								</div>
-							</li>
-							<li class="skills_data-elt reveal slide_down">
-								<div class="skills_data-titles">
-									<p>JavaScript</p>
-									<p>75%</p>
-								</div>
-								<div class="skills_data-bar">
-									<span
-										class="skills_data-line js-line"
-									></span
-									><span
-										class="skills_data-fit js-ball"
-									></span>
-								</div>
-							</li>
-							<li class="skills_data-elt reveal slide_down">
-								<div class="skills_data-titles">
-									<p>Jquery</p>
-									<p>70%</p>
-								</div>
-								<div class="skills_data-bar">
-									<span
-										class="skills_data-line jquery-line"
-									></span
-									><span
-										class="skills_data-fit jquery-ball"
-									></span>
-								</div>
-							</li>
-						</ul>
-						<ul class="skills_data-list grid">
-							<li class="skills_data-elt reveal slide_down">
-								<div class="skills_data-titles">
-									<p>PHP</p>
-									<p>80%</p>
-								</div>
-								<div class="skills_data-bar">
-									<span
-										class="skills_data-line php-line"
-									></span
-									><span
-										class="skills_data-fit php-ball"
-									></span>
-								</div>
-							</li>
-							<li class="skills_data-elt reveal slide_down">
-								<div class="skills_data-titles">
-									<p>Python</p>
-									<p>60%</p>
-								</div>
-								<div class="skills_data-bar">
-									<span
-										class="skills_data-line py-line"
-									></span
-									><span
-										class="skills_data-fit py-ball"
-									></span>
-								</div>
-							</li>
-							<li class="skills_data-elt reveal slide_down">
-								<div class="skills_data-titles">
-									<p>SQL</p>
-									<p>90%</p>
-								</div>
-								<div class="skills_data-bar">
-									<span
-										class="skills_data-line sql-line"
-									></span
-									><span
-										class="skills_data-fit sql-ball"
-									></span>
-								</div>
-							</li>
-							<li class="skills_data-elt reveal slide_down">
-								<div class="skills_data-titles">
-									<p>React</p>
-									<p>50%</p>
-								</div>
-								<div class="skills_data-bar">
-									<span
-										class="skills_data-line react-line"
-									></span
-									><span
-										class="skills_data-fit react-ball"
-									></span>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
-			<section id="portfolio">
-				<div class="portfolio_data grid">
-					<h2 class="reveal slide_up">Portfolio</h2>
-					<div class="portfolio_data-container grid">
-						<div class="portfolio_data-project grid">
-							<img
-								src="./assets/img/sylviebiscuitsetcie.png"
-								alt="projet Sylvie, biscuits et cie"
-								class="portfolio_data-img reveal slide_right"
-							/>
-							<div
-								class="portfolio_data-info grid reveal slide_left"
-							>
-								<h3 class="portfolio_data-title">
-									Sylvie, Biscuits et cie
-								</h3>
-								<p class="portfolio_data-text">
-									La gourmandise est un joli défaut
-								</p>
-								<a
-									href="./projects/sylviebiscuitsetcie"
-									class="btn"
-									>Voir projet</a
-								>
-							</div>
-						</div>
-						<div class="portfolio_data-project grid">
-							<img
-								src="./assets/img/allocine_logo.svg"
-								alt="projet Sylvie, biscuits et cie"
-								class="portfolio_data-img reveal slide_left"
-							/>
-							<div
-								class="portfolio_data-info grid reveal slide_right"
-							>
-								<h3 class="portfolio_data-title">
-									Allociné Clone
-								</h3>
-								<p class="portfolio_data-text">
-									Le site de référence du cinéma et des séries
-									tv
-								</p>
-								<a href="./projects/allocine" class="btn"
-									>Voir projet</a
-								>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="contact">
-				<div class="contact_data grid">
-					<h2 class="reveal slide_up">Contact</h2>
-					<form
-						method="post"
-						class="contact_form grid reveal slide_right"
-						action=""
-					>
-						<div>
-							<label for="full_name" class="input_title"
-								>Nom *</label
-							><input
-								name="name"
-								id="full_name"
-								class="input-form"
-								autocomplete="off"
-							/>
-						</div>
-						<div>
-							<label for="email" class="input_title"
-								>Email *</label
-							><input
-								type="email"
-								name="email"
-								class="input-form"
-								id="email"
-								autocomplete="off"
-							/>
-						</div>
-						<div>
-							<label for="mail_comment" class="input_title"
-								>Message *</label
-							><textarea
-								name="message"
-								id="mail_comment"
-								cols="30"
-								class="input-form"
-								rows="10"
-								autocomplete="off"
-							></textarea>
-						</div>
-						<div class="mail_btn-container">
-							<input
-								class="btn mail_btn"
-								type="submit"
-								name="submit"
-								value="Envoyer"
-							/>
-							<div class="loader_mail"></div>
-						</div>
-					</form>
-				</div>
-				<ul id="social_media_grid">
-					<li class="reveal slide_left">
-						<a
-							target="_blank"
-							href="https://www.github.com/BillyRogier"
-							><i class="fa-brands fa-github"></i
-						></a>
-					</li>
-					<li class="reveal slide_left">
-						<a
-							target="_blank"
-							href="https://www.instagram.com/rogibilly/"
-							><i class="fa-brands fa-instagram"></i
-						></a>
-					</li>
-					<li class="reveal slide_left">
-						<a
-							target="_blank"
-							href="https://www.linkedin.com/in/billyrogier/"
-							><i class="fa-brands fa-linkedin"></i
-						></a>
-					</li>
-				</ul>
-			</section>
-		</main>
-		<footer>
-			<p class="light">
-				© 2023 Rogier Billy - num hébergeur : +3 70 64 50 33 78
-			</p>
-		</footer>
-	</body>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-	<script src="./assets/js/cookie.js"></script>
-	<script src="./assets/js/function.js"></script>
-	<script src="./assets/js/animation.js"></script>
-	<script>
-		let lang = getCookie("lang");
-		if (lang == "en") {
-			window.location.replace("/en");
-		}
-	</script>
-	<script src="./assets/js/contact_form.js"></script>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="description"
+            content="Hey, Je suis Billy Rogier, développeur web. Je suis actuellement étudiant à l'école Webstart de Paris et à la recherche d'une alternance sur Lille"
+        />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link
+            rel="shortcut icon"
+            href="./assets/img/logo.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        />
+        <title>Billy Rogier | Développeur web</title>
+    </head>
+    <body>
+        <div class="loader"></div>
+        <span id="circle_animation" class="active"></span>
+        <header>
+            <nav class="reveal slide_up">
+                <a href="#home" id="logo"
+                    ><img src="./assets/img/logo.svg" alt="logo" /></a
+                ><input
+                    type="checkbox"
+                    name="slider"
+                    id="menu_burger-check"
+                /><label for="menu_burger-check" id="menu_burger"
+                    ><p id="menu_burger-title">menu</p>
+                    <div class="menu_burger-box">
+                        <div class="menu_burger-bar"></div>
+                        <div class="menu_burger-bar"></div>
+                        <div class="menu_burger-bar"></div></div
+                ></label>
+                <ul id="nav_links">
+                    <li><a href="#about" class="link">à propos</a></li>
+                    <li><a href="#skills" class="link">Compétences</a></li>
+                    <li><a href="#portfolio" class="link">Portfolio</a></li>
+                    <li><a href="#contact" class="link">Contact</a></li>
+                    <li class="link-container">
+                        <a href="/en" id="language" class="link">EN</a>
+                        <div class="link" id="toggle_light">
+                            <i class="fa-solid fa-circle-half-stroke"></i>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <div class="home_data grid reveal slide_right">
+                    <h1>Hey, Je suis Billy Rogier</h1>
+                    <p>Développeur web full stack</p>
+                    <a href="#about" class="btn">Voir plus</a>
+                </div>
+                <a href="#about"
+                    ><div class="scroll_down">
+                        <p>défiler</p>
+                        <div class="chevron_down">
+                            <i class="fa-solid fa-chevron-down"></i
+                            ><i class="fa-solid fa-chevron-down"></i
+                            ><i class="fa-solid fa-chevron-down"></i>
+                        </div></div
+                ></a>
+            </section>
+            <section id="about">
+                <div class="about_data grid">
+                    <h2 class="reveal slide_up">à propos</h2>
+                    <p class="reveal slide_right">
+                        Je suis un développeur web freelance passionné par mon
+                        métier. Je suis toujours à l'affût des nouvelles
+                        technologies et des tendances pour améliorer mon travail
+                        et offrir des projets toujours meilleurs. J'apprécie la
+                        diversité des projets sur lesquels je travaille et je
+                        suis toujours prêt à relever de nouveaux défis pour
+                        améliorer mes compétences et proposer des solutions
+                        toujours plus efficaces.
+                    </p>
+                </div>
+            </section>
+            <section id="skills">
+                <div class="skills_data grid">
+                    <h2 class="reveal slide_up">Compétences</h2>
+                    <div class="skills_data-container grid">
+                        <ul class="skills_data-list grid">
+                            <li class="skills_data-elt reveal slide_down">
+                                <div class="skills_data-titles">
+                                    <p>HTML</p>
+                                    <p>95%</p>
+                                </div>
+                                <div class="skills_data-bar">
+                                    <span
+                                        class="skills_data-line html-line"
+                                    ></span>
+                                </div>
+                            </li>
+                            <li class="skills_data-elt reveal slide_down">
+                                <div class="skills_data-titles">
+                                    <p>CSS</p>
+                                    <p>90%</p>
+                                </div>
+                                <div class="skills_data-bar">
+                                    <span
+                                        class="skills_data-line css-line"
+                                    ></span>
+                                </div>
+                            </li>
+                            <li class="skills_data-elt reveal slide_down">
+                                <div class="skills_data-titles">
+                                    <p>JavaScript</p>
+                                    <p>75%</p>
+                                </div>
+                                <div class="skills_data-bar">
+                                    <span
+                                        class="skills_data-line js-line"
+                                    ></span>
+                                </div>
+                            </li>
+                            <li class="skills_data-elt reveal slide_down">
+                                <div class="skills_data-titles">
+                                    <p>Jquery</p>
+                                    <p>70%</p>
+                                </div>
+                                <div class="skills_data-bar">
+                                    <span
+                                        class="skills_data-line jquery-line"
+                                    ></span>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="skills_data-list grid">
+                            <li class="skills_data-elt reveal slide_down">
+                                <div class="skills_data-titles">
+                                    <p>PHP</p>
+                                    <p>80%</p>
+                                </div>
+                                <div class="skills_data-bar">
+                                    <span
+                                        class="skills_data-line php-line"
+                                    ></span>
+                                </div>
+                            </li>
+                            <li class="skills_data-elt reveal slide_down">
+                                <div class="skills_data-titles">
+                                    <p>Python</p>
+                                    <p>60%</p>
+                                </div>
+                                <div class="skills_data-bar">
+                                    <span
+                                        class="skills_data-line py-line"
+                                    ></span>
+                                </div>
+                            </li>
+                            <li class="skills_data-elt reveal slide_down">
+                                <div class="skills_data-titles">
+                                    <p>SQL</p>
+                                    <p>90%</p>
+                                </div>
+                                <div class="skills_data-bar">
+                                    <span
+                                        class="skills_data-line sql-line"
+                                    ></span>
+                                </div>
+                            </li>
+                            <li class="skills_data-elt reveal slide_down">
+                                <div class="skills_data-titles">
+                                    <p>React</p>
+                                    <p>50%</p>
+                                </div>
+                                <div class="skills_data-bar">
+                                    <span
+                                        class="skills_data-line react-line"
+                                    ></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <div class="portfolio_data grid">
+                    <h2 class="reveal slide_up">Portfolio</h2>
+                    <div class="portfolio_data-container grid">
+                        <div class="portfolio_data-project grid">
+                            <img
+                                src="./assets/img/sylviebiscuitsetcie.png"
+                                alt="projet Sylvie, biscuits et cie"
+                                class="portfolio_data-img reveal slide_right"
+                            />
+                            <div
+                                class="portfolio_data-info grid reveal slide_left"
+                            >
+                                <h3 class="portfolio_data-title">
+                                    Sylvie, Biscuits et cie
+                                </h3>
+                                <p class="portfolio_data-text">
+                                    La gourmandise est un joli défaut
+                                </p>
+                                <a
+                                    href="./projects/sylviebiscuitsetcie"
+                                    class="btn"
+                                    >Voir projet</a
+                                >
+                            </div>
+                        </div>
+                        <div class="portfolio_data-project grid">
+                            <img
+                                src="./assets/img/lestruellesardechoises.svg"
+                                alt="projet Les Truelles Ardéchoises"
+                                class="portfolio_data-img reveal slide_left"
+                            />
+                            <div
+                                class="portfolio_data-info grid reveal slide_right"
+                            >
+                                <h3 class="portfolio_data-title">
+                                    Les Truelles Ardéchoises
+                                </h3>
+                                <a href="./projects/lestruellesardechoises/" class="btn"
+                                    >Voir projet</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="contact_data grid">
+                    <h2 class="reveal slide_up">Contact</h2>
+                    <form
+                        method="post"
+                        class="contact_form grid reveal slide_right"
+                        action=""
+                    >
+                        <div>
+                            <label for="full_name" class="input_title"
+                                >Nom *</label
+                            ><input
+                                name="name"
+                                id="full_name"
+                                class="input-form"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div>
+                            <label for="email" class="input_title"
+                                >Email *</label
+                            ><input
+                                type="email"
+                                name="email"
+                                class="input-form"
+                                id="email"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div>
+                            <label for="mail_comment" class="input_title"
+                                >Message *</label
+                            ><textarea
+                                name="message"
+                                id="mail_comment"
+                                cols="30"
+                                class="input-form"
+                                rows="10"
+                                autocomplete="off"
+                            ></textarea>
+                        </div>
+                        <div class="mail_btn-container">
+                            <input
+                                class="btn mail_btn"
+                                type="submit"
+                                name="submit"
+                                value="Envoyer"
+                            />
+                            <div class="loader_mail"></div>
+                        </div>
+                    </form>
+                </div>
+                <ul id="social_media_grid">
+                    <li class="reveal slide_left">
+                        <a
+                            target="_blank"
+                            href="https://www.github.com/BillyRogier"
+                            ><i class="fa-brands fa-github"></i
+                        ></a>
+                    </li>
+                    <li class="reveal slide_left">
+                        <a
+                            target="_blank"
+                            href="https://www.instagram.com/billy_rogier/"
+                            ><i class="fa-brands fa-instagram"></i
+                        ></a>
+                    </li>
+                    <li class="reveal slide_left">
+                        <a
+                            target="_blank"
+                            href="https://www.linkedin.com/in/billyrogier/"
+                            ><i class="fa-brands fa-linkedin"></i
+                        ></a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p class="light">
+                © 2023 Rogier Billy - num hébergeur : +3 70 64 50 33 78
+            </p>
+        </footer>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./assets/js/cookie.js"></script>
+    <script src="./assets/js/function.js"></script>
+    <script src="./assets/js/animation.js"></script>
+    <script>
+        let lang = getCookie('lang');
+        if (lang == 'en') {
+            window.location.replace('/en');
+        }
+    </script>
+    <script src="./assets/js/contact_form.js"></script>
 </html>
