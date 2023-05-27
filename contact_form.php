@@ -14,7 +14,7 @@ if (isset($_POST)) {
     $mail->SMTPAuth = true;
     $mail->CharSet = "UTF-8";
     $mail->Username = "billy.rogier@free.fr";
-    $mail->Password = "Billy007";
+    $mail->Password = "*****";
     $mail->SMTPSecure = "ssl";
     $mail->setFrom($_REQUEST['email'], $_REQUEST['name']);
     $mail->addReplyTo($_REQUEST['email'], $_REQUEST['name']);
