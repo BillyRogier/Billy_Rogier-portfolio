@@ -19,5 +19,5 @@ Bienvenue sur mon portfolio ! Ce projet est une vitrine de mes compétences en d
 Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter :
 
 -   Email : billy.rogier@free.fr
--   linkedin : https://www.linkedin.com/in/billyrogier/
--   Site web : [https://billyrogier.com](https://billyrogier.com)
+-   linkedin : [linkedin](https://www.linkedin.com/in/billyrogier/) 
+-   Site web : [portfolio](https://billyrogier.com)
