@@ -31,7 +31,7 @@ ehthumbs.db
 # Fichiers d'icônes Windows
 Icon?
 
-/assets/img
-/assets/file
-/PHPMailer
+./assets/img
+./assets/file
+./PHPMailer
 .htaccess
