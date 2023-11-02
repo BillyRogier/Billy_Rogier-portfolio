@@ -2,6 +2,10 @@
 node_modules/
 dist/
 out/
+assets/img
+assets/file
+PHPMailer/
+.htaccess
 
 # Fichiers de configuration
 *.env
@@ -31,7 +35,3 @@ ehthumbs.db
 # Fichiers d'icônes Windows
 Icon?
 
-./assets/img
-./assets/file
-./PHPMailer
-.htaccess
