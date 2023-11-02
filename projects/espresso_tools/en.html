@@ -3,13 +3,6 @@
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-            name="description"
-            content="Les Truelles Ardéchoises est une entreprise de maçonnerie situé à Montréal en France. Le projet
-			consisté à réalisé un portfolio, du design à la
-			programmation, permettant de présenter tous les
-			réalisation de l'entreprise. Réaliser en PHP, HTML, CSS, JS et MySql."
-        />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <link
             rel="shortcut icon"
@@ -22,7 +15,7 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         />
-        <title>Billy Rogier | Projet | Les Truelles Ardéchoises</title>
+        <title>Billy Rogier | Project | Les Truelles Ardéchoises</title>
     </head>
     <body>
         <div class="loader"></div>
@@ -44,16 +37,14 @@
                 ></label>
                 <ul id="nav_links">
                     <li>
-                        <a href="/" class="link"
-                            ><i class="fa-solid fa-arrow-left"></i>accueil</a
+                        <a href="/en" class="link"
+                            ><i class="fa-solid fa-arrow-left"></i>Home</a
                         >
                     </li>
-                    <li>
-                        <a href="/#portfolio" class="link">Tous les projets</a>
-                    </li>
-                    <li><a href="/#contact" class="link">Contact</a></li>
+                    <li><a href="/en#portfolio" class="link">All Works</a></li>
+                    <li><a href="/en#contact" class="link">Contact</a></li>
                     <li class="link-container">
-                        <a href="./en" id="language" class="link">EN</a>
+                        <a href="./" id="language" class="link">FR</a>
                         <div class="link" id="toggle_light">
                             <i class="fa-solid fa-circle-half-stroke"></i>
                         </div>
@@ -62,10 +53,10 @@
             </nav>
         </header>
         <main>
-            <section class="project-section">
+            <section>
                 <div class="project-meta-home grid reveal slide_right">
                     <h1>Les Truelles Ardéchoises</h1>
-                    <a href="#project" class="btn">Voir plus</a>
+                    <a href="#project" class="btn">See more</a>
                 </div>
                 <img
                     src="../../assets/img/mockup_lta.png"
@@ -78,14 +69,14 @@
                 style="padding-bottom: 160px; padding-top: 80px"
             >
                 <div class="project-meta-desc grid">
-                    <h2 class="reveal slide_up">Projet</h2>
+                    <h2 class="reveal slide_up">Project</h2>
                     <p class="reveal slide_down">
                         Les Truelles Ardéchoises est une entreprise de
-                        maçonnerie située à Montréal en France. Le projet
-                        consistait à réaliser un portfolio, du design à la
+                        maçonnerie situé à Montréal en France. Le projet
+                        consisté à réalisé un portfolio, du design à la
                         programmation, permettant de présenter tous les
-                        réalisations de l'entreprise. Réaliser en PHP, HTML,
-                        CSS, JS et MySql.
+                        réalisation de l'entreprise. Réaliser en PHP, HTML, CSS,
+                        JS et MySql.
                     </p>
                     <div class="grid">
                         <a
@@ -96,7 +87,7 @@
                                 <i
                                     class="fa-solid fa-arrow-up-right-from-square"
                                 ></i
-                                >&ensp;Visiter le site
+                                >&ensp;Visit website
                             </div></a
                         >
                     </div>
@@ -105,7 +96,7 @@
         </main>
         <footer>
             <p class="light">
-                © 2023 Rogier Billy - num hébergeur : +3 70 64 50 33 78
+                © 2023 Rogier Billy - num hoster : +3 70 64 50 33 78
             </p>
         </footer>
     </body>
@@ -115,8 +106,8 @@
     <script src="../../assets/js/animation_project.js"></script>
     <script>
         let lang = getCookie('lang');
-        if (lang == 'en') {
-            window.location.replace('/projects/lestruellesardechoises/en');
+        if (lang == 'fr') {
+            window.location.replace('/projects/espresso_tools/');
         }
     </script>
 </html>

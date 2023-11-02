@@ -21,7 +21,8 @@ let elementClick = !1,
 function positionCircle() {
     if (
         !/sylviebiscuitsetcie/.test(window.location.href) &&
-        !/allocine/.test(window.location.href)
+        !/espresso_tools/.test(window.location.href) &&
+        !/lestruellesardechoises/.test(window.location.href)
     ) {
         window.scrollY < section[1].offsetTop - 70
             ? ((circle.style.top = 0.35 * window.scrollY + 'px'),
@@ -98,7 +99,8 @@ function menuAnimation() {
     ) {
         if (
             /sylviebiscuitsetcie/.test(window.location.href) ||
-            /allocine/.test(window.location.href)
+            /espresso_tools/.test(window.location.href) ||
+            /lestruellesardechoises/.test(window.location.href)
         ) {
             circle.classList.remove('active')
             circle.classList.add('disaper')
@@ -121,7 +123,8 @@ function menuAnimation() {
                     menuBar[e].style.backgroundColor = 'var(--text-color)'
                 if (
                     (!/sylviebiscuitsetcie/.test(window.location.href) ||
-                        !/allocine/.test(window.location.href)) &&
+                        !/espresso_tools/.test(window.location.href) ||
+                        !/lestruellesardechoises/.test(window.location.href)) &&
                     window.innerWidth > 768
                 ) {
                     positionCircle()
@@ -135,7 +138,8 @@ function menuAnimation() {
         (0 != window.scrollY &&
             window.innerWidth > 768 &&
             !/sylviebiscuitsetcie/.test(window.location.href)) ||
-            !/allocine/.test(window.location.href))
+            !/espresso_tools/.test(window.location.href) ||
+            !/lestruellesardechoises/.test(window.location.href))
     )
         setTimeout(function () {
             ;(menu_bar1.style.transform = 'translate(0, 20px) rotate(45deg)'),
