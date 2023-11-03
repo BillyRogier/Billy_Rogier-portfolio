@@ -1,6 +1,6 @@
 # Portfolio
 
-Bienvenue sur mon portfolio ! Ce projet est une vitrine de mes compétences en développement web. Il contient également mes projets externes.
+Bienvenue sur mon portfolio ! Ce projet est une vitrine de mes compétences en développement web. Il contient également mes projets externes. Vous pouvez voir le résultat ici : [portfolio](https://billyrogier.com)
 
 
 ## Technologies utilisées
