@@ -21,4 +21,4 @@ Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter :
 
 -   Email : [billy.rogier@free.fr]
 -   linkedin : [linkedin](https://www.linkedin.com/in/billyrogier/) 
--   Site web : [portfolio](https://billyrogier.com)
+-   Site web : [portfolio](https://billyrogier.com/#contact)
